@@ -1,0 +1,29 @@
+count1 = []
+count2 = []
+cost = []
+amount  =[]
+namesa = []
+namesv = []
+m = 0
+sum = 0
+loop do 
+	puts "Press name"
+	namesa << gets.chomp
+	namesv << namesa[m]
+	if namesa [m] == "stop"
+		break
+	end
+	puts "Press cost"
+	cost << gets.chomp.to_i
+    count1 << m
+    puts "Press amount"
+    amount << gets.chomp.to_i
+    count2 << m
+    sum += amount[m]*cost[m]
+    puts "intermediate sum = #{sum}"
+    m = m+1
+end
+pcost = {"count1" => cost, "count2" => amount } 
+acost = {"namesa" => pcost["count1"], "namesv" => pcost["count2"]}#.reject { k, _| k =="stop"}
+puts "#{sum}"
+STDIN.getc
