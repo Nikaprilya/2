@@ -1,0 +1,483 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E4E5EA;
+    background-color: #0E1014;
+}
+
+.logo1 {
+    position: absolute;
+    left: 150px;
+    top: 75px;
+}
+
+.logo2 {
+    position: absolute;
+    left: 193.17px;
+    top: 82px;
+}
+
+.kr_int {
+    position: absolute;
+    width: 165px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    left: 150px;
+    top: 91px;
+}
+
+.uslugi {
+    position: absolute;
+    font-weight: 500;
+    top: 61px;
+    left: 342px;
+}
+
+.vidgety {
+    position: absolute;
+    font-weight: 500;
+    top: 61px;
+    left: 426px;
+}
+
+.integratsii {
+    position: absolute;
+    font-weight: 500;
+    top: 61px;
+    left: 530px;
+}
+
+.keysi {
+    position: absolute;
+    font-weight: 500;
+    top: 61px;
+    left: 655px;
+}
+
+.sertifikaty {
+    position: absolute;
+    font-weight: 500;
+    top: 61px;
+    left: 736px;
+}
+
+.telephone {
+    position: absolute;
+    font-weight: 500;
+    top: 61px;
+    left: 982px;
+}
+
+.button1 {
+    position: absolute;
+    top: 80px;
+    left: 1274px;
+}
+
+.button2 {
+    position: absolute;
+    top: 80px;
+    left: 1224px;
+}
+
+.button3 {
+    position: absolute;
+    top: 80px;
+    left: 1174px;
+}
+
+.zar_bol {
+    position: absolute;
+    width: 362px;
+    height: 116px;
+    left: 147px;
+    top: 209px;
+    font-size: 48px;
+}
+
+.swel {
+    position: absolute;
+    width: 247px;
+    height: 58px;
+    left: 147px;
+    top: 325px;
+    font-weight: 900;
+    font-size: 48px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.raz_kon {
+    position: absolute;
+    width: 275px;
+    height: 44px;
+    left: 148px;
+    top: 413px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.okom {
+    position: absolute;
+    left: 149px;
+    top: 720px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.menu {
+    position: absolute;
+    left: 442px;
+    top: 720px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.kontakty {
+    position: absolute;
+    left: 1204px;
+    top: 720px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.part_pr {
+    position: absolute;
+    left: 149px;
+    top: 757px;
+}
+
+.part_pr {
+    position: absolute;
+    left: 149px;
+    top: 757px;
+}
+
+.vakan {
+    position: absolute;
+    left: 149px;
+    top: 786px;
+}
+
+.ras_st {
+    position: absolute;
+    left: 442px;
+    top: 757px;
+}
+
+.usl {
+    position: absolute;
+    left: 442px;
+    top: 786px;
+}
+
+.vidg {
+    position: absolute;
+    left: 442px;
+    top: 815px;
+}
+
+.integ {
+    position: absolute;
+    left: 442px;
+    top: 844px;
+}
+
+.nash_kl {
+    position: absolute;
+    left: 442px;
+    top: 873px;
+}
+
+.keys {
+    position: absolute;
+    left: 638px;
+    top: 757px;
+}
+
+.blag_pis {
+    position: absolute;
+    left: 638px;
+    top: 786px;
+}
+
+.sertif {
+    position: absolute;
+    left: 638px;
+    top: 815px;
+}
+
+.blog_you {
+    position: absolute;
+    left: 638px;
+    top: 844px;
+}
+
+.vop_otv {
+    position: absolute;
+    left: 638px;
+    top: 873px;
+}
+
+.telep {
+    position: absolute;
+    left: 1188px;
+    top: 757px;
+}
+
+.button4 {
+    position: absolute;
+    left: 1212px;
+    top: 820px;
+}
+
+.button5 {
+    position: absolute;
+    left: 1240px;
+    top: 820px;
+}
+
+.button6 {
+    position: absolute;
+    left: 1270px;
+    top: 820px;
+}
+
+.adres {
+    position: absolute;
+    left: 1097px;
+    top: 836px;
+}
+
+.bes_kon1 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    top: 224px;
+    left: 1080px;
+}
+
+.bes_kon2 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    top: 224px;
+    left: 1170px;
+    text-transform: uppercase;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.bes_kon3 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    top: 246px;
+    left: 1030px;
+    text-transform: uppercase;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.bes_kon4 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    top: 246px;
+    left: 1205px;
+}
+
+.vid {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    top: 308px;
+    left: 1040px;
+}
+
+.dash {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    top: 308px;
+    left: 1188px;
+}
+
+.skype {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    top: 406px;
+    left: 1010px;
+}
+
+.dn_35 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    top: 406px;
+    left: 1220px;
+}
+
+.resh_30 {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 110px;
+    height: 40px;
+    line-height: 20px;
+    top: 336px;
+    text-align: right;
+    left: 1025px;
+}
+
+.pok_biz {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+    top: 336px;
+    text-align: right;
+    left: 1140px;
+}
+
+.otd_pr {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 170px;
+    height: 40px;
+    line-height: 20px;
+    top: 434px;
+    text-align: right;
+    left: 970px;
+}
+
+.isp_crm {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+    top: 434px;
+    text-align: right;
+    left: 1140px;
+}
+.pol_kon{
+    position: absolute;
+    width: 202px;
+    height: 15px;
+    left: 1085px;
+    top: 945px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: right;
+    text-decoration-line: underline;
+}
+.wel_22{
+    position: absolute;
+    width: 239px;
+    height: 15px;
+    left: 1050px;
+    top: 925px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */   
+    text-align: right;
+}
+.red_light {
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.purple_light {
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.button {
+    position: absolute;
+    background-color: #4077F3;
+    color: #E4E5EA;
+    width: 262px;
+    height: 61px;
+    left: 1040px;
+    top: 535px;
+}
+.red_ball{
+    position: absolute;
+    top:90px;
+    left:519px;
+}
+.red_ball1{
+    position: absolute;
+    top: 547px;
+    left: 851px;
+}
+.purple_ball{
+    position: absolute;
+    top: 2px;
+    left:868px;
+}
